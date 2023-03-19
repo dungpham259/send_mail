@@ -38,7 +38,7 @@ app.post('/sendMail', async (req, res) => {
     let transporter = mailer.createTransport(mailerConfig);
     let info = await transporter.sendMail(
         {
-            from: 'Anh Dung',
+            from: 'Kunj Kanani',
             to: to.join(','),
             subject: subject,
             html: html,
